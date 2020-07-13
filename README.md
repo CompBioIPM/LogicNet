@@ -22,10 +22,3 @@ help(package="LogicNet")
 
 
 #####################################################################################
-LogicNet in MATLAB:
-
-To have the predicted edges and logic functions, load data and run matlab function LogicNet(data), in which data is the gene expression matrix.
-
-load('Y3')
-
-[PREDICTED_LOGIC,PREDICTED_EDGES]=LogicNet(data);
